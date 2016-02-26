@@ -1,5 +1,5 @@
 # hdfs-site.xml  example on namenode
-# /home/hadoop/hadoop/etc/hadoop
+# $HADOOP_HOME/etc/hadoop
 
 <configuration>
     <property>
