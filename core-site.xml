@@ -1,4 +1,4 @@
-#  /home/hadoop/hadoop/etc/hadoop
+# example of core-site.xml under:  $HADOOP_HOME/etc/hadoop
 
 <configuration>
 <property>
