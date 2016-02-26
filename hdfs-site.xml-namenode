@@ -1,0 +1,17 @@
+# hdfs-site.xml  example on namenode
+# /home/hadoop/hadoop/etc/hadoop
+
+<configuration>
+    <property>
+        <name>dfs.replication</name>
+        <value>2</value>
+    </property>
+    <property>
+        <name>dfs.namenode.name.dir</name>
+        <value>file:///home/hadoop/data/hadoop-data/nn</value>
+    </property>
+    <property>
+        <name>dfs.namenode.checkpoint.dir</name>
+        <value>file:///home/hadoop/data/hadoop-data/snn</value>
+    </property>
+</configuration>
