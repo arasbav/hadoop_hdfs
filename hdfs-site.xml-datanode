@@ -1,0 +1,9 @@
+# hdfs-site.xml file configuration example on datanode
+# /home/hadoop/hadoop/etc/hadoop
+
+<configuration>
+    <property>
+        <name>dfs.datanode.name.dir</name>
+        <value>file:///home/hadoop/data/hadoop-data/dn</value>
+    </property>
+</configuration>
