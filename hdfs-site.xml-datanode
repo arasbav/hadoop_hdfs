@@ -1,5 +1,5 @@
 # hdfs-site.xml file configuration example on datanode
-# /home/hadoop/hadoop/etc/hadoop
+# $HADOOP_HOME/etc/hadoop
 
 <configuration>
     <property>
