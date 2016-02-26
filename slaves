@@ -1,0 +1,3 @@
+#  example of slave file under: $HADOOP_HOME/etc/hadoop
+hadoop2-slave
+hadoop3-slave
