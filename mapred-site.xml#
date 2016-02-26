@@ -1,0 +1,9 @@
+#  mapred-site.xml example 
+#  /home/hadoop/hadoop/etc/hadoop
+
+<configuration>
+    <property>
+        <name>mapreduce.jobtracker.address</name>
+        <value>hadoop1-master:54311</value>
+    </property>
+</configuration>
