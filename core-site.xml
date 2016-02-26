@@ -1,0 +1,8 @@
+#  /home/hadoop/hadoop/etc/hadoop
+
+<configuration>
+<property>
+  <name>fs.default.name</name>
+    <value>hdfs://hadoop1-master:9000</value>
+</property>
+</configuration>
