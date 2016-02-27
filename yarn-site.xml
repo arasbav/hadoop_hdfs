@@ -1,0 +1,16 @@
+#  $HADOOP_HOME/etc/hadoop
+
+<configuration>
+    <property>
+        <name>yarn.resourcemanager.hostname</name>
+        <value>hadoop1</value>
+    </property>
+    <property>
+        <name>yarn.nodemanager.aux-services</name>
+        <value>mapreduce_shuffle</value>
+    </property>
+    <property>
+        <name>yarn.nodemanager.aux-services.mapreduce.shuffle.class</name>
+        <value>org.apache.hadoop.mapred.ShuffleHandler</value>
+    </property>
+</configuration>
