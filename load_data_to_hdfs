@@ -6,3 +6,7 @@ hdfs dfs -ls /
 hdfs dfs -mkdir /comarch
 hdfs dfs -ls /
 
+hdfs dfs -copyFromLocal ./inputMapReduce /
+hdfs dfs -ls /inputMapReduce
+
+
