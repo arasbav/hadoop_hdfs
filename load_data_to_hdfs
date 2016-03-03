@@ -3,11 +3,15 @@ hadoop fs -copyFromLocal /path/to/localfile /hdfs/path/
 hdfs dfs -copyFromLocal test /
 ls
 hdfs dfs -ls /
-hdfs dfs -mkdir /mapreduce_output_sales
-hdfs dfs -ls /
 
 hdfs dfs -copyFromLocal ./inputMapReduce /
 hdfs dfs -ls /inputMapReduce
+
+# add directory
+hdfs dfs -mkdir /mapreduce_output_sales
+
+# remove directory
+hadoop fs -rm -r -f /mapreduce_output_sales
 
 
 
