@@ -13,7 +13,8 @@ hdfs dfs -mkdir /mapreduce_output_sales
 # remove directory
 hadoop fs -rm -r -f /mapreduce_output_sales
 
-
+#LEAVE SAFE MODE
+hdfs dfsadmin -safemode leave
 
 
 
